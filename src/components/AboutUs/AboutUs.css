@@ -1,0 +1,115 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@700&display=swap" );
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap");
+
+.aboutus-container{
+    display: flex;
+    background-color: #F8F9FC;
+    padding: 40px;
+}
+.text--image{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.aboutus-text{
+ font-family: 'Clash Display', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   margin-bottom: 20px;
+}
+.aboutus-subtext{
+    font-family: 'Satoshi', sans-serif; 
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    color:#A1A1A1
+}
+/* .aboutus-image{
+    display: flex;
+    flex-direction: column;
+} */
+.aboutus-cards{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 80px 40px;
+   
+}
+.image-one{
+    height: auto;
+    max-width: 40vw;
+}
+.cardstwo-four{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin:20px;
+   
+}
+.card-logo{
+    margin-bottom: 20px;
+}
+.card-title{
+    margin-bottom: 20px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+.card-content{
+    font-family: 'Satoshi', sans-serif; 
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    color:#A1A1A1
+}
+@media screen and (max-width: 1114px){
+    .card-logo{
+        margin-bottom: 0px;
+
+    }
+    .card-title{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .card-content{
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 0px;
+            }
+}
+
+@media screen and (max-width: 910px){
+.aboutus-container{
+    flex-direction: column;
+    align-items: center;
+}
+.text--image{
+    align-items: center;
+    text-align: center;
+}
+.aboutus-cards{
+    padding: 0px;
+}
+.cards{
+    margin: 10px;
+}
+}
+@media screen and (max-width: 500px){
+    .card-logo{
+        margin-bottom: 0px;
+
+    }
+    .card-title{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .card-content{
+font-size: 8px;
+line-height: 12px;
+margin-bottom: 0px;
+    }
+}

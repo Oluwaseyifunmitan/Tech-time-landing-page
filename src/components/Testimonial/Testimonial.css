@@ -1,0 +1,110 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@700&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap");
+
+.testimonial-container {
+  background-color: #f8f9fc;
+  padding: 40px;
+}
+.testimonial-text-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.testimonial-text {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.testimonial-subtext {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 28px;
+  color: #a1a1a1;
+}
+.testimonial-card-section {
+  display: flex;
+  justify-content: center;
+}
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 700px;
+  height: 300px;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+}
+.testimonial-card-text {
+  font-family: "Satoshi", sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 26px;
+  color: #a1a1a1;
+}
+.testimonial-card-details {
+  display: flex;
+}
+.client-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.clients-name {
+  font-family: "Satoshi", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 5px;
+  line-height: 28px;
+}
+.clients-job {
+  font-family: "Satoshi", sans-serif;
+  font-size: 12px;
+  margin-right: 5px;
+  color: #a1a1a1;
+}
+.testimonial-scroll-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1325px){
+  
+  .testimonial-card-text{
+    font-size: 10px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+}
+@media screen and (max-width: 1050px){
+  .testimonial-card-text{
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+}
+@media screen and (max-width: 750px){
+  .testimonial-card-text{
+    font-size: 6px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 610px){
+  .testimonial-text-p{
+    text-align: center;
+  }
+  /* testimonial-card-text{
+    font-size: 6px;
+    line-height: 12px;
+    margin-bottom: 10px;
+  } */
+}

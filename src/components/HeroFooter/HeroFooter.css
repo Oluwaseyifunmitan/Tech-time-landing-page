@@ -1,0 +1,171 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@700&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap");
+
+.footerIcons {
+  background-color: #ccdbf0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+}
+.online {
+  display: flex;
+  background-color: #f8f9fc;
+  padding: 40px;
+}
+.ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.audio-text {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.audio-subtext {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 28px;
+  color: #a1a1a1;
+}
+.course-button {
+  background-color: #004db3;
+  padding: 1vw 2vw;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+}
+.classM {
+  display: flex;
+}
+.first-button {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+.second-button {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 20px;
+}
+.button-courses {
+  display: flex;
+  padding: 1vw 2vw;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  margin-bottom: 20px;
+}
+.audio_icons {
+  order: -1;
+  padding: 0 20px;
+}
+.student-images {
+  padding-left: 80px;
+}
+.student-one {
+  height: auto;
+  max-width: 40vw;
+  position: relative;
+  padding: 45px;
+  top: 90px;
+}
+.student-two {
+  height: auto;
+  max-width: 20vw;
+  position: relative;
+  bottom: 90px;
+  right: 300px;
+  z-index: 1;
+}
+.notification-bar {
+  position: relative;
+  bottom: 400px;
+  right: 110px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .footericon {
+    height: auto;
+    max-width: 15vw;
+  }
+  .online {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .ad {
+    align-items: center;
+  }
+  .audio-text {
+    text-align: center;
+  }
+  .audio-subtext{
+    text-align: center;
+  }
+  .student-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px
+  }
+  .student-one{
+    height:auto;
+    max-width: 60vw;
+    padding: 0px;
+    top:0px;
+    left:100px;
+  }
+.student-two{
+    height:auto;
+    max-width: 40vw;
+    right:190px;
+    bottom:220px;
+}
+.notification-bar{
+    bottom:350px;
+    right:220px;
+}
+}
+@media screen and (max-width: 710px){
+  .notification-bar{
+    bottom:300px;
+    right:250px;
+    height:auto;
+    max-width: 2vw;
+}
+}
+@media screen and (max-width: 540px){
+    .student-one{
+        height:auto;
+        max-width: 60vw;
+        padding: 0px;
+        top:0px;
+        left:60px;
+      }
+    .student-two{
+        height:auto;
+        max-width: 40vw;
+        right:110px;
+        bottom:160px;
+    }
+    .notification-bar{
+        bottom:200px;
+        right:250px;
+        height:auto;
+        max-width: 2vw;
+    }
+}
